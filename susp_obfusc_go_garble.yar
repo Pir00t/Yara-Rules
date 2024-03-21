@@ -22,6 +22,7 @@ rule susp_obfusc_go_garble
         $s3 = "embed"
         $s4 = "sync"
 
+        // capture unique base64 string encoding of pkg and function names
         $x1 = /\w{6,11}_\./
 
     condition:
